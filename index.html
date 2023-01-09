@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Logo -->
+    <div id="header-logo">
+        <img src="images/logo.png" id="logo-img" alt="Logo">
+    </div>
+    <!--// Logo //-->
+
+    <!-- Header -->
+    <header id="header" class="bg-primary">
+        <!-- Header Background -->
+        <div id="header-background">
+            <!-- Header Text -->
+            <div class="p-5" id="header-text">
+                <h1 id="header-text1">كأس</h1>
+                <h1 id="header-text2">العالم</h1>
+            </div>
+            <!--// Header Text //-->
+        </div>
+        <!--// Header Background //-->
+    </header>
+    <!--// Header //-->
+
+    <!-- Qatar Word -->
+    <section id="qatarWord" class="d-flex justify-content-center">
+        <img src="images/qatar-word.png" alt="Qatar 2022">
+    </section>
+    <!--// Qatar Word //-->
+
+    <!-- Main Content -->
+    <main id="mainContent" class="container">
+        <!-- Standings -->
+        <div id="standings" class="p-5 mt-1">
+            <!-- Title -->
+            <div class="row" id="title">
+                <b>
+                    <h1>المجموعات</h1>
+                </b>
+            </div>
+            <hr>
+            <!--// Title //-->
+
+
+            <!-- Standings row -->
+            <div class="row" id="standingsRow"></div>
+
+        </div>
+        <!--// Standings row //-->
+
+        </div>
+        <!--// Standings //-->
+
+        <!-- Matches -->
+
+        <div>
+            <div class="row" id="matchesTitle">
+                <b>
+                    <h1 class="bold">المباريات</h1>
+                </b>
+            </div>
+            <hr>
+            <div class="row" id="matches">
+                <!-- Match row -->
+            <div class="col-sm-12 mb-3">
+                <div class="card shadow rounded-pill" id="matchCard">
+                    <div class="card-body p-0">
+                        <div class="row" style="height: 100px;">
+    
+                            <!-- First team column -->
+                            <div class="col-sm-3 bg-primary d-flex flex-column justify-content-center align-items-center"
+                                style="border-right: solid 5px #5b0d25;">
+    
+                                <!-- Image and team name -->
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div>
+                                        <img class="border border-2 rounded-circle flag-img"
+                                            src="https://flagdownload.com/wp-content/uploads/Flag_of_Qatar_Flat_Round-2048x2048.png"
+                                            alt="Flag">
+                                        <b>
+                                            <h5 class="my-auto">QAT</h5>
+                                        </b>
+                                    </div>
+                                </div>
+                                <!--// Image and team name //-->
+                            </div>
+                            <!--// First team column //-->
+    
+                            <!-- Match info -->
+                            <div class="col-sm-6" style="text-align: center;">
+                                <h6>Group (A)</h6>
+                                <h1>X</h1>
+                                <h6>18:30</h6>
+                            </div>
+                            <!--// Match info //-->
+    
+                            <!-- second team column -->
+                            <div class="col-sm-3 bg-primary d-flex flex-column justify-content-center align-items-center"
+                            style="border-left: solid 5px #5b0d25;">
+    
+                            <!-- Image and team name -->
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div>
+                                    <img class="border border-2 rounded-circle flag-img"
+                                        src="https://flagdownload.com/wp-content/uploads/Flag_of_Qatar_Flat_Round-2048x2048.png"
+                                        alt="Flag">
+                                    <b>
+                                        <h5 class="my-auto">QAT</h5>
+                                    </b>
+                                </div>
+                            </div>
+                            <!--// Image and team name //-->
+                        </div>
+                             <!--// second team column //-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!--// Match row //-->
+            </div>
+        </div>
+
+        <!--// Matches //-->
+
+    </main>
+    <!--// Main Content //-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.2/axios.min.js"
+        integrity="sha512-QTnb9BQkG4fBYIt9JGvYmxPpd6TBeKp6lsUrtiVQsrJ9sb33Bn9s0wMQO9qVBFbPX3xHRAsBHvXlcsrnJjExjg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
